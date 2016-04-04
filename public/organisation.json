@@ -1,0 +1,36 @@
+[{
+	"id": 1,
+	"name": "Managing Director",
+	"people": [{
+		"id": 2,
+		"name": "Sales Director"
+	}, {
+		"id": 3,
+		"name": "IT Director",
+		"people": [{
+			"id": 4,
+			"name": "Technical Lead",
+			"people": [{
+				"id": 5,
+				"name": "Software Developer"
+			}, {
+				"id": 6,
+				"name": "Support Technician"
+			}]
+		}]
+	}, {
+		"id": 7,
+		"name": "HR Department",
+		"people": [{
+			"id": 8,
+			"name": "HR Officer",
+			"people": [{
+				"id": 9,
+				"name": "HR Assistant 1"
+			}, {
+				"id": 10,
+				"name": "HR Assistant 2"
+			}]
+		}]
+	}]
+}]
