@@ -1,0 +1,30 @@
+{
+  "name": "react-nested-list-view",
+  "version": "0.1.3",
+  "description": "React nested list view",
+  "author": "Lyndsey Browning",
+  "license": "ISC",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --progress",
+    "build": "NODE_ENV=production node_modules/.bin/webpack -p --progress --colors"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.5",
+    "babel-core": "~6.0.*",
+    "babel-loader": "~6.0.*",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "~6.0.*",
+    "babel-preset-react": "~6.0.*",
+    "css-loader": "^0.23.1",
+    "postcss-loader": "^0.8.2",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.13.1",
+    "webpack": "~1.12.*",
+    "webpack-dev-server": "~1.12.*"
+  },
+  "dependencies": {
+    "react": "~0.14.*",
+    "react-dom": "~0.14.*",
+    "whatwg-fetch": "^0.11.0"
+  }
+}
